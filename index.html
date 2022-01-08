@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+    <main>
+
+        <div class="score">
+            <div class="score-board-user">
+                <h2 class="bg">👤: <span id="user-choice"></span></h2>
+                <h2>Points: <span id="pointsUser"></span></h2>
+            </div>
+    
+            <div class="score-board-computer">
+                <h2 class="bg">💻: <span id="computer-choice"></span></h2>
+                <h2>Points: <span id="pointsComputer"></span></h2>
+            </div>
+        </div>
+
+        <h3 class="move">Make your move</h3>
+
+        <div class="btns">
+            <img src="img/puno.png" class="btn" id="rock""></img>
+            <img src="img/levantar-la-mano.png" class="btn" id="paper"></img>
+            <img src="img/peace-symbol.png" class="btn" id="scissors"></img>
+        </div>
+
+        <h2 class="result"><span id="result"></span></h2>
+
+
+    </div>
+    </main>
+
+    
+
+
     <script src="app.js"></script>
 </body>
 </html>

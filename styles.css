@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 44, 58);
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+main {
+    color: white;
+    padding: 30px;
+}
+
+main .score-board-user {
+    border: solid #fff 2px;
+    border-radius: 4px;
+    text-align: center;
+    width: 400px;
+}
+
+main .score-board-computer {
+    border: solid #fff 2px;
+    border-radius: 4px;
+    text-align: center;
+    width: 400px;
+}
+
+main .score-board-user .bg {
+    background-color: #E2584D;
+}
+
+main .score-board-user .bg span{
+    background-color: #E2584D;
+}
+
+main .score-board-computer .bg {
+    background-color: #E2584D;
+}
+
+main .score-board-computer .bg span{
+    background-color: #E2584D;
+}
+
+main .move {
+    margin: 30px;
+    text-align: center;
+}
+
+main .result {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+main .btns {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .btns img {
+width: 100px;
+}
